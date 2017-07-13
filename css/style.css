@@ -9,11 +9,16 @@ body{
 	margin:0;
 	padding: 0;
 	overflow-x: hidden;
+	color:white;
 }
 
 /*PAGINA UNO INDEX.HTML*/
-.pagina1,.formulario1{
+.pagina1,.formulario1,.registrate{
 	padding-top: 72px;
+}
+.registrate{
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 .logo{
 	width: 35%;
@@ -21,7 +26,9 @@ body{
 .amarillo{
 	color:#f6a800;
 }
-
+a{
+	color:white;
+}
 input.username-text {
     width: 100%;
     padding: 4px 5px 5px 25px;
@@ -98,6 +105,8 @@ input.password-text {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     /*border-radius:;*/
 }
+
+/*PAGINA 2*/
 
 
 
