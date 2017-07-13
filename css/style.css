@@ -2,6 +2,7 @@
 /* gris #3e3f41 */
 /* blanco #ffffff */
 /* placeholder #a9a9ab */
+/* color iniciar sesion #3e4573*/
 
 body{
 	background-color: #3e3f41;
@@ -63,7 +64,7 @@ input.password-text {
     text-align: center;
     white-space: nowrap;
     background-color:#f6a800 ;
-    color:blue;
+    color:#3e4573;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
