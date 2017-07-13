@@ -41,7 +41,7 @@ body{
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 0px;
+    border-radius: 4px;
     
 }
 .opciones{
@@ -79,5 +79,33 @@ img{
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
+}
 
+
+
+input{
+    background-color:#dddee0;
+    border-left: transparent;
+    border-right:  transparent;
+    border-top: transparent;
+    border-bottom: 1px solid #3e3f41 ;
+    width: 100%;
+    color:black;
+
+}
+
+.tarjeta{
+    padding-top: 20px;
+
+}
+.tarjeta-div{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.btn-div{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
 }
