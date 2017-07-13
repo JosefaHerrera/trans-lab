@@ -1,0 +1,18 @@
+/*amarillo #f6a800 */
+/* gris #3e3f41 */
+/* blanco #ffffff */
+/* placeholder #a9a9ab */
+/* color iniciar sesion #3e4573*/
+/*fondo #dddee0*/
+body{
+	background-color:#dddee0;
+	margin:0;
+	padding: 0;
+	overflow-x: hidden;
+	color:white;
+}
+
+.navBar{
+	background-color:#3e3f41;
+
+}
