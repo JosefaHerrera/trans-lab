@@ -1,10 +1,17 @@
-//http://bip-servicio.herokuapp.com/
 $(document).ready(function() {
     $.ajax({
             url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=123456',
-            //El único método soportado por la API es GET
             type: 'GET',
             datatype: 'JSON',
         })
-
-});
+        .done(function(response) {
+            console.log('prueba');
+            console.log(response);
+        })
+        .fail(function() {
+            console.log('error')
+        })
+        .always(function() {
+            console.log('complete')
+        });
+})
