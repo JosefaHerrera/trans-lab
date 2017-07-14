@@ -17,6 +17,19 @@ body{
     background-color:#3e3f41;
 
 }
+.div-correo{
+    margin-top: 30px;
+    background-color: #FFF;
+    width: 100%;
+    height: 50px;
+    color:black;
+}
+
+#respuesta-email{
+    padding-top: 12px;
+    font-weight: 600;
+    color:black;
+}
 
 .btn {
     display: inline-block;
@@ -83,12 +96,6 @@ img{
 }
 
 
-.correo{
-    background-color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-        border-radius: 4px;
-}
 
 .correo-div{
     padding-top: 40px;

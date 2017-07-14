@@ -47,11 +47,15 @@ $('#closeNav').click(function(){
                 }
                 else{
                     $("#mensaje2").fadeOut();
-                    if (correo.value !== '' && pwd.value !=='') {
-       					window.location.href = 'opciones.html'
-    }
+                        if (correo.value !== '' && pwd.value !=='') {
+                            localStorage.setItem('mail',$("#correo").val());
+           					window.location.href = 'opciones.html'
+                        }
 			 		}
 	});
+    //DEVOLVER EMAIL en perfil
+    var mail = localStorage.getItem('mail');
+    $('#respuesta-email').html(mail);
 });
 
 
