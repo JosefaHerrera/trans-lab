@@ -46,7 +46,7 @@ $('#closeNav').click(function(){
         }else{
         //fadeOut(); hace un tipo de animacion de opacidad 100% a 0%
               $("#mensaje1").fadeOut();
-             }if(pwd == ""){
+             }if(pwd == "" ){
                     $("#mensaje2").fadeIn("slow");
                     return false;
                 }
