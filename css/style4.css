@@ -266,14 +266,17 @@ header{
     background-color: transparent;
     padding: 5px;
 }
-
-
-.div-saldo{
-    padding-top: 100px;
+.div-saldo {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 .nav-saldo{
     background-color: #3e3f41 ;
     color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .header-saldo{
     background-color: #f6a800 ;
@@ -281,6 +284,8 @@ header{
     font-size: 30px;
     font-weight: bolder;
     padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .div-nav{

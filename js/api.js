@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 /*calcular tarifa*/
 $('#calculartarifa').click(function(response){
-    var inputsaldo = $('#is-input-tarifa').val();
+    var inputsaldo = $('#ntarjeta').val();
     var tarifa = $('#selectTarifa').val();
     console.log (inputsaldo);
     console.log (tarifa);
@@ -73,18 +73,18 @@ $('#calculartarifa').click(function(response){
         type: 'GET',
         datatype: 'JSON',
     })
-    //pasar todo a string (replace)
+    //pasar todo a string
     .done(function(response) {
             console.log(response);
-            var numeroTarjeta = response.saldoTarjeta;
-            var removesigno = numeroTarjeta.replace("$","");
-            var removepunto = removesigno.replace(".","");
-            var saldo = parseInt(removepunto);
+            var numsaldo = response.saldoTarjeta;
+            var quitardig = numsaldo.replace("$","");
+            var quitarpunto = quitardig.replace(".","");
+            var saldo = parseInt(quitarpunto);
             var final = saldo - tarifa
             $('#muestratarifa').append("<div class='nav-saldo'>COSTO PASAJE</div>"+
-                "<div class='header-saldo'>" + tarifa + "</div>"+
+                "<div class='header-saldo'>" +"$ "+ tarifa + "</div>"+
                 "<div class='nav-saldo '>SALDO FINAL</div>"+
-                "<div class='header-saldo div-nav'>" + final + "</div>");
+                "<div class='header-saldo div-nav'>" +"$ "+ final + "</div>");
         })
         .fail(function() {
             console.log('Error')
