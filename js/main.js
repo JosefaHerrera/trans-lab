@@ -5,12 +5,32 @@
 
 
 /*******************/
+/*PROBANDO SIDEBAR JS - PASADO A JQUERY*/
+$('#openNav').click(function(){
+    $('#mySidenav').width('250px');
+});
+$('#closeNav').click(function(){
+    $('#mySidenav').width('0');
+});
+/*FIN SIDEBAR*/
 
 
 //index.html validar form.
 //Expresión para validar un correo electrónico expresiones regulares
 var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
 $(document).ready(function(){
+    /**/
+    $('#openNav').click(function(){
+
+    $('#mySidenav').width('250px');
+
+});
+
+$('#closeNav').click(function(){
+
+    $('#mySidenav').width('0');
+
+});
 	// al hacer click en el btn-enviar, empezará a validar el formulario
 	$("#btn-enviar").click(function(){
 	//.val() obtenemos el contenido ingresado en el input correo.
