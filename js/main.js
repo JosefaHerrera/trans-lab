@@ -5,15 +5,7 @@
 
 
 /*******************/
-/*SIDEVAR MENU*/
-$(document).ready(function() {
-	var bodyEl = $('body'),
-    	navToggleBtn = bodyEl.find('.menu-hamburguesa');
-        navToggleBtn.on('click', function(e) {
-    	bodyEl.toggleClass('active-nav');
-        e.preventDefault();
-        });
-})();
+
 
 //index.html validar form.
 //Expresión para validar un correo electrónico expresiones regulares
