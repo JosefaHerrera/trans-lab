@@ -1,0 +1,49 @@
+/*amarillo #f6a800 */
+/* gris #3e3f41 */
+/* blanco #ffffff */
+/* placeholder #a9a9ab */
+/* color iniciar sesion #3e4573*/
+/*fondo #dddee0*/
+
+body{
+    background-color:#dddee0;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    color:white;
+}
+
+.navBar{
+    background-color:#3e3f41;
+
+}
+
+.btn {
+    display: inline-block;
+    height: 53px;
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    background-color:#f6a800 ;
+    color:white;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+a{
+    color:white;
+}
