@@ -49,7 +49,7 @@ $(document).ready(function() {
                 console.log('SALDO', saldoObtenido);
             })
             .fail(function() {
-                alert("ingrese numero de tarjeta validad")   
+                alert("ingrese numero de tarjeta validad")
         })
             .always(function() {
                 console.log('complete')
