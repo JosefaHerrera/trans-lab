@@ -47,3 +47,11 @@ body{
 a{
     color:white;
 }
+
+
+.title-frecuentes{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:#f6a800;
+    color:white;
+}
