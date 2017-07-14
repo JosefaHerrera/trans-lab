@@ -34,7 +34,11 @@ $(document).ready(function(){
                 }
                 else{
                     $("#mensaje2").fadeOut();
+                    if (correo.value !== '' && pwd.value !=='') {
+       					window.location.href = 'opciones.html'
+    }
 			 		}
+
 
 	});
 });

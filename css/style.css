@@ -71,9 +71,8 @@ input.password-text {
 
 .btn {
     display: inline-block;
-    height: 74px;
     width: 100%;
-    padding: 6px 12px;
+    padding: 20px 20px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
@@ -81,7 +80,7 @@ input.password-text {
     text-align: center;
     white-space: nowrap;
     background-color:#f6a800 ;
-    color:#3e4573;
+    color:#ffffff;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -95,6 +94,13 @@ input.password-text {
     border-radius: 0px;
     
 }
+
+.btn-default:hover, .open>.dropdown-toggle.btn-default {
+    color:#f6a800;
+    background-color:#3e3f41;
+    border-color: transparent;
+}
+
 
 .form-control {
     display: block;
@@ -129,6 +135,10 @@ input.password-text {
     margin-top: -20px;
     margin-left: 176px;
     padding: 10px;
+}
+
+.text-btn{
+    padding-top: 20px;
 }
 
 
