@@ -56,6 +56,16 @@ a{
     color: white;
 }
 
+a:hover{
+    color:#f6a800 ;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color:#3e3f41;
+}
+
 
 .fotouser{
     background-color:#f6a800;
