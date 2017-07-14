@@ -141,10 +141,38 @@ select, input[type="color" i][list] {
     padding-bottom: 10px;
 }
 
-
+/*validacion*/
+.errores {
+    -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: #f6a800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: none;
+    font-size: 14px;
+    margin-top: -162px;
+    margin-left: 176px;
+    width: 50%;
+}
 
 .select-div{
 	padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
+}
+
+.div-saldo{
+    padding-top: 100px;
+}
+.nav-saldo{
+    background-color: #3e3f41 ;
+    color: white;
+}
+.header-saldo{
+    background-color: #f6a800 ;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
 }
