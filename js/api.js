@@ -59,3 +59,42 @@ $(document).ready(function() {
 
 
 /*FIN VER SALDO*/
+
+
+/*calcular tarifa*/
+$('#calculartarifa').click(function(response){
+    var inputsaldo = $('#is-input-tarifa').val();
+    var tarifa = $('#selectTarifa').val();
+    console.log (inputsaldo);
+    console.log (tarifa);
+
+    $.ajax({
+        url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip='+inputsaldo,
+        type: 'GET',
+        datatype: 'JSON',
+    })
+    //pasar todo a string (replace)
+    .done(function(response) {
+            console.log(response);
+            var numeroTarjeta = response.saldoTarjeta;
+            var removesigno = numeroTarjeta.replace("$","");
+            var removepunto = removesigno.replace(".","");
+            var saldo = parseInt(removepunto);
+            var final = saldo - tarifa
+            $('#muestratarifa').append("<div class='nav-saldo'>COSTO PASAJE</div>"+
+                "<div class='header-saldo'>" + tarifa + "</div>"+
+                "<div class='nav-saldo '>SALDO FINAL</div>"+
+                "<div class='header-saldo div-nav'>" + final + "</div>");
+        })
+        .fail(function() {
+            console.log('Error')
+        })
+        .always(function() {
+            console.log('Completado')
+        });
+
+    
+})
+
+
+

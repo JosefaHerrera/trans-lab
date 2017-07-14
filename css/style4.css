@@ -267,3 +267,23 @@ header{
     padding: 5px;
 }
 
+
+.div-saldo{
+    padding-top: 100px;
+}
+.nav-saldo{
+    background-color: #3e3f41 ;
+    color: white;
+}
+.header-saldo{
+    background-color: #f6a800 ;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.div-nav{
+    margin-bottom:20px;
+}
+
