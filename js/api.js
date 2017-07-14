@@ -22,8 +22,6 @@ $(document).ready(function() {
     // Evento para el boton de saldo que comprueba si el número es válido
     $('#btn-saldo').on('click', function() {
         var numTarjetaSaldo = $('.input-saldo').val();
-        //console.log('valor de tarjeta apra el saldo', numTarjetaSaldo);
-        // Segunda llamada a la API para confirmar que la tarjeta por la que se consulta el saldo es válida 
         $.ajax({
                 url: `http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=${numTarjetaSaldo}`,
                 type: 'GET',
