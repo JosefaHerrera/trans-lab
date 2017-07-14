@@ -5,14 +5,6 @@
 
 
 /*******************/
-/*PROBANDO SIDEBAR JS - PASADO A JQUERY*/
-$('#openNav').click(function(){
-    $('#mySidenav').width('250px');
-});
-$('#closeNav').click(function(){
-    $('#mySidenav').width('0');
-});
-/*FIN SIDEBAR*/
 
 
 //index.html validar form.
