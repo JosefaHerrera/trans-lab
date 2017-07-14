@@ -2,8 +2,7 @@
 //HORARIO ALTO  $740
 //HORARIO BAJO  $640
 //HORARIO MEDIO $680
-/*preguntas acordeon*/
-$('.collapse').collapse()
+
 
 /*******************/
 
@@ -18,6 +17,24 @@ $(document).ready(function(){
 	//.val() obtenemos el contenido ingresado en el input contraseña.
 	var pwd = $("#pwd").val();
 	//al realizar variables , el codigo se ve más limpio al momento de hacer validaciones largas.
+	//VALIACION (CONDICION)
+	
+	//Si nombre es = a espacio vacío , aparece el mensaje con el #mensaje1
+	//fadeIn(); hace un tipo de animacion de opacidad 0% a 100%
+	if(correo == "" || !expr.test(correo)){
+        $("#mensaje1").fadeIn("slow");
+        ////al tener el valor false , es que no esta validando el contenido como lo hace true.
+            return false;
+        }else{
+        //fadeOut(); hace un tipo de animacion de opacidad 100% a 0%
+              $("#mensaje1").fadeOut();
+			 }if(pwd == ""){
+                    $("#mensaje2").fadeIn("slow");
+                    return false;
+                }
+                else{
+                    $("#mensaje2").fadeOut();
+			 		}
 
 	});
 });
