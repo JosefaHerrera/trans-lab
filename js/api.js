@@ -16,7 +16,7 @@ $(document).ready(function() {
         });
 })
 
-
+/*VER SALDO */
 $(document).ready(function() {
 
     // Evento para el boton de saldo que comprueba si el número es válido
@@ -55,6 +55,7 @@ $(document).ready(function() {
                 console.log('complete')
             });
     })
-
-
 })
+
+
+/*FIN VER SALDO*/
