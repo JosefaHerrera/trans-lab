@@ -5,8 +5,13 @@
 
 
 /*******************/
-
-
+/*PROBANDO SIDEBAR JS - MENU*/
+$('#openNav').click(function(){
+    $('#mySidenav').width('250px');
+});
+$('#closeNav').click(function(){
+    $('#mySidenav').width('0');
+});
 //index.html validar form.
 //Expresión para validar un correo electrónico expresiones regulares
 var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;

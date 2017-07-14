@@ -1,56 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Trans-Lab</title>
     <meta charset="UTF-8">
+    <title>TransLab - Menu App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <!-- Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- More icons -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!-- CSS -->
-    <link href="css/style6.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!--FA-->
+    <script src="https://use.fontawesome.com/52df75c062.js"></script>
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/style6.css">
 </head>
-
 <body>
 
-    <!-- Navbar -->
-    <nav class="nav-extended nav-menu">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo logo-menu">TRANS-LAB</a>
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="user-view">
-                        <div class="background">
-                        </div>
-                    </div>
-                </li>
-                <li><a href="saldo.html"><i class="fa fa-usd fa-2x color-side" aria-hidden="true"></i>Ver saldo</a></li>
-                <li><a href="calcular.html"><i class="fa fa-th fa-2x" aria-hidden="true"></i>Calcular Tarifa</a></li>
-                <li><a href="perfil.html"><i class="fa fa-user fa-2x" aria-hidden="true"></i>Perfil</a></li>
-                <li><a href="frecuentes.html"><i class="large material-icons">receipt</i>Preguntas frecuentes</a></li>
-                <li><a href="menu.html"><i class="large material-icons">trending_flat</i>Home</a></li>
-            </ul>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i id="openNav" class="material-icons">menu</i></a>
+      <div class="container-fluid">
+        <div class="navbar-header text-center">
+          <i class="fa fa-bars fa-2x blanco icono" aria-hidden="true" id="openNav"></i>
+            <span class="blanco text-trans-lab">TRANS-LAB</span>
         </div>
-    </nav>
+       </div><!-- /.container-fluid -->
+    <!--PROBANDO SIDENAV-->
+    <div id="mySidenav" class="sidenav">
+        <i class="fa fa-times closebtn" aria-hidden="true" id="closeNav"></i>
+        <a href="versaldo.html" class="mder"><i class="fa fa-usd" aria-hidden="true"></i>Ver Saldo</a>
+        <a href="tarifa.html" class="mder"><i class="fa fa-th" aria-hidden="true"></i>Calcular Tarifa</a>
+        <a href="perfil.html" class="mder"><i class="fa fa-user" aria-hidden="true"></i>Perfil</a>
+        <a href="preguntas.html" class="mder"><i class="fa fa-file-text" aria-hidden="true"></i>Preguntas Frecuentes</a>
+        <a href="opciones.html" class="mder"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Home</a>
+    </div>
 
-
-
-
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-     <!-- mi archivo de js -->
-     <script type="text/javascript" src="js/main.js"></script>
-     <script type="text/javascript" src="js/api.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--MI JS-->
+    <script src="js/main.js"></script>
 </body>
-
 </html>
